@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0D780D21C4492DD0019626E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D780D11C4492DD0019626E /* AppDelegate.swift */; };
+		C0D780D41C4492DD0019626E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D780D31C4492DD0019626E /* ViewController.swift */; };
+		C0D780D71C4492DD0019626E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D780D51C4492DD0019626E /* Main.storyboard */; };
+		C0D780D91C4492DD0019626E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D780D81C4492DD0019626E /* Assets.xcassets */; };
+		C0D780DC1C4492DD0019626E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D780DA1C4492DD0019626E /* LaunchScreen.storyboard */; };
+		C0D780E41C44933E0019626E /* LineDialSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D780E31C44933E0019626E /* LineDialSlider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0D780CE1C4492DD0019626E /* Heater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D780D11C4492DD0019626E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0D780D31C4492DD0019626E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0D780D61C4492DD0019626E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0D780D81C4492DD0019626E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0D780DB1C4492DD0019626E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0D780DD1C4492DD0019626E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0D780E31C44933E0019626E /* LineDialSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineDialSlider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0D780CB1C4492DD0019626E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0D780C51C4492DD0019626E = {
+			isa = PBXGroup;
+			children = (
+				C0D780D01C4492DD0019626E /* Heater */,
+				C0D780CF1C4492DD0019626E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0D780CF1C4492DD0019626E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0D780CE1C4492DD0019626E /* Heater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0D780D01C4492DD0019626E /* Heater */ = {
+			isa = PBXGroup;
+			children = (
+				C0D780D11C4492DD0019626E /* AppDelegate.swift */,
+				C0D780D31C4492DD0019626E /* ViewController.swift */,
+				C0D780E31C44933E0019626E /* LineDialSlider.swift */,
+				C0D780D51C4492DD0019626E /* Main.storyboard */,
+				C0D780D81C4492DD0019626E /* Assets.xcassets */,
+				C0D780DA1C4492DD0019626E /* LaunchScreen.storyboard */,
+				C0D780DD1C4492DD0019626E /* Info.plist */,
+			);
+			path = Heater;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0D780CD1C4492DD0019626E /* Heater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D780E01C4492DD0019626E /* Build configuration list for PBXNativeTarget "Heater" */;
+			buildPhases = (
+				C0D780CA1C4492DD0019626E /* Sources */,
+				C0D780CB1C4492DD0019626E /* Frameworks */,
+				C0D780CC1C4492DD0019626E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heater;
+			productName = Heater;
+			productReference = C0D780CE1C4492DD0019626E /* Heater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0D780C61C4492DD0019626E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AG;
+				TargetAttributes = {
+					C0D780CD1C4492DD0019626E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C0D780C91C4492DD0019626E /* Build configuration list for PBXProject "Heater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0D780C51C4492DD0019626E;
+			productRefGroup = C0D780CF1C4492DD0019626E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0D780CD1C4492DD0019626E /* Heater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0D780CC1C4492DD0019626E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D780DC1C4492DD0019626E /* LaunchScreen.storyboard in Resources */,
+				C0D780D91C4492DD0019626E /* Assets.xcassets in Resources */,
+				C0D780D71C4492DD0019626E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0D780CA1C4492DD0019626E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D780E41C44933E0019626E /* LineDialSlider.swift in Sources */,
+				C0D780D41C4492DD0019626E /* ViewController.swift in Sources */,
+				C0D780D21C4492DD0019626E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0D780D51C4492DD0019626E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0D780D61C4492DD0019626E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0D780DA1C4492DD0019626E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0D780DB1C4492DD0019626E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0D780DE1C4492DD0019626E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0D780DF1C4492DD0019626E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0D780E11C4492DD0019626E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Heater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AG.Heater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0D780E21C4492DD0019626E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Heater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AG.Heater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0D780C91C4492DD0019626E /* Build configuration list for PBXProject "Heater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D780DE1C4492DD0019626E /* Debug */,
+				C0D780DF1C4492DD0019626E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D780E01C4492DD0019626E /* Build configuration list for PBXNativeTarget "Heater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D780E11C4492DD0019626E /* Debug */,
+				C0D780E21C4492DD0019626E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0D780C61C4492DD0019626E /* Project object */;
+}
